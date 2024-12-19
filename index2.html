@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante La Reserve</title>
+    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="hero">
+            <div class="overlay"></div>
+            <h1>LA RESERVE</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Cardápio</a></li>
+                    <li><a href="#">Receitas</a></li>
+                    <li><a href="#">Galeria</a></li>
+                    <li><a href="#">Reserva</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="programacao">
+        <h2>Nossas Programações</h2>
+        <div class="cards">
+            <div class="card">
+                <img src="degustacao-comidas.jpg" alt="Degustação de Comidas">
+                <h3>Degustação de Comidas</h3>
+                <p>01/01</p>
+            </div>
+            <div class="card">
+                <img src="degustacao-vinhos.jpg" alt="Degustação de Vinhos">
+                <h3>Degustação de Vinhos</h3>
+                <p>06/01</p>
+            </div>
+            <div class="card">
+                <img src="mostra-cardapio.jpg" alt="Mostra de Cardápio">
+                <h3>Mostra de Cardápio Novo</h3>
+                <p>10/01</p>
+            </div>
+            <div class="card">
+                <img src="mostra-cardapio.jpg" alt="Festival de Chocolate">
+                <h3>Festival de Chocolate</h3>
+                <p>16/01</p>
+                <div class="card">
+                    <img src="mostra-cardapio.jpg" alt="Degusta Búzios">
+                    <h3>Degusta Búzios</h3>
+                    <p>21/01</p>
+                    <div class="card">
+                        <img src="mostra-cardapio.jpg" alt="Noite de Massas">
+                        <h3>Noite de Massas</h3>
+                        <p>31/01</p>
+        </div>
+    </section>
+
+    <section class="calendario">
+        <h2>Calendário</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Dom</th>
+                    <th>Seg</th>
+                    <th>Ter</th>
+                    <th>Qua</th>
+                    <th>Qui</th>
+                    <th>Sex</th>
+                    <th>Sáb</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td></td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td>
+                </tr>
+                
+            </tbody>
+        </table>
+    </section>
+
+    <section class="ingressos">
+        <h2>Compra de Ingressos</h2>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="quantidade">Quantidade:</label>
+            <input type="number" id="quantidade" name="quantidade" min="1" required>
+            
+            <button type="submit">Finalizar</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>Restaurante La Reserve agradece sua visita!</p>
+            <p>Nos siga em nossas redes sociais e não perca nada:</p>
+            <div class="redes-sociais">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+        <div class="info-footer">
+            <div>
+                <h3>Horário de Funcionamento</h3>
+                <p>Segunda a Sexta: 12h às 23h</p>
+                <p>Sábados e Domingos: 11h às 00h</p>
+            </div>
+            <div>
+                <h3>Endereço</h3>
+                <p>Rua Santa Madureira, nº 1100</p>
+                <p>Bairro Constantinopla</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
