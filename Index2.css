@@ -1,0 +1,150 @@
+
+.Quadrado{
+    background-color: #761414;
+    color: white;
+    width: 45%;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+}
+.TitulosProgamacoes{
+    margin: 10px 20px;
+}
+.calendario {
+    padding: 20px;
+    text-align: center;
+    background-color: #FFF4E9;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 60%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.highlight {
+    background-color: #e4b363;
+    color: #fff;
+    font-weight: bold;
+}
+/* Estilo geral do calendário */
+.calendario table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+.calendario th, .calendario td {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+}
+
+.calendario th {
+    background-color: #761414;
+    color: white;
+    font-weight: bold;
+}
+
+.calendario td {
+    background-color: #f9f9f9; /* Fundo padrão */
+    transition: background-color 0.3s ease;
+}
+
+.calendario td.highlight {
+    background-color: #e4b363; /* Cor dos dias destacados */
+    color: white;
+    font-weight: bold;
+}
+
+/* Formulário de Ingressos */
+.ingressos {
+    padding: 40px 20px; /* Espaçamento ao redor da seção */
+    text-align: center;
+    background-color: #FFF4E9;
+}
+.centralT{
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #FFF4E9;
+}
+form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 600px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+form label {
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: left;
+}
+form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;    
+}
+button{
+    width: 20%;
+    height: 40px;
+    background-color: #761414;
+    color: white;
+    border-radius: 30px;
+    border: 2px solid #e4b363;
+    box-shadow: 2px 2px 2px white;
+}
+button:hover{
+    background-color: #e4b363; /* Cor de destaque ao passar o mouse */
+    color: #761414; /* Cor do texto ao passar o mouse */
+}
+#TT{ 
+    color: white;
+}
+@media (max-width: 580px) {
+    .Quadrado{
+        width: 65%;
+        text-align: center;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+    label{
+        font-size: 28px !important;
+    }
+    input{
+        border: 2px solid #761414 !important;
+    }
+    #TT{
+        display: none;
+    }
+    .form-group{
+        display: flex;
+        flex-direction: column;
+    }
+    h2{
+        font-size: 36px;
+    }
+    .calendario{
+        margin: 10px;
+        padding: 0px;
+    }
+    table{
+        width: 394px !important;
+        margin: 0px !important;
+    }
+}

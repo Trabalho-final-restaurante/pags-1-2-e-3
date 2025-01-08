@@ -1,0 +1,154 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+.central{
+    display: flex;
+    justify-content: center;
+}
+.ImagemLogo{
+    width: 45%;
+}
+.Cabecario{
+    background-image: url(ImagensIndex1/image\ 29.png);
+    background-color: rgba(90, 22, 22, 0.63);
+    width: 100%;
+    height: 450px;
+    margin: 0px;
+}
+.ConteudoCabecario{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.Menu{
+    width: 100%;
+    height: 12%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.603);
+}
+.itemmenu{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+.Logo{
+    display: flex;
+    justify-content: center;
+    height: 68%;
+}
+.IconesCabecaio{
+    display: flex;
+    justify-content: center;
+    height: 20%;
+}
+.Icones{
+    margin: 0px 30px;
+    height: 60%;
+}
+.Pratos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.ConteudoPratos{
+    width: 100%;
+    display: flex;
+}
+.ImagensP{
+    width: 50%;
+    height: 400px;
+}
+.TextoP{
+    width: 50%;
+    height: 400px;
+}
+.TituloP{
+    font-size: 48px;
+    font-weight: 600;
+}
+.SubTituloP{
+    font-size: 32px;
+    font-weight: 400;
+}
+.QuadradoTituloEventos{
+    background-color: #761414;
+    width: 45%;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+}
+.TituloEventos{
+    margin: 10px 20px;
+}
+.BlocoEventos{
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+}
+.ConteudoEventos{
+    width: 30%;
+    height: 450px;
+    margin: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.ImgEventos{
+    width: 100%;
+    height: 80%;
+    border-radius: 30px;
+}
+.Direcionador{
+    display: flex;
+}
+@media(max-width: 580px){
+    .ImagemLogo{
+        width: 100%;
+    }
+    .ConteudoPratos{
+        flex-direction: column;
+        margin-top: 100px;
+    }
+    .ImagensP{
+        width: 75%;
+        margin: auto;
+    }
+    .TextoP{
+        width: 75%;
+        margin: auto;
+        height: 100%;
+    }
+    .TituloP{
+        margin: 30px 0px 0px 0px;
+        font-size: 36px;
+
+    }
+    .SubTituloP{
+        margin: 0px;
+        font-size: 28px ;
+    }
+    .QuadradoTituloEventos{
+        width: 65%;
+        display: flex;
+        justify-content: center;
+        text-align: center; 
+        color: white;
+    }
+    .BlocoEventos{
+        margin-top: 50px;
+    }
+    .Direcionador{
+        flex-direction: column;
+    }
+    .ConteudoEventos{
+        width: 75%;
+        margin: 20px 43.984px;
+    }
+}
