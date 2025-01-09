@@ -1,4 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #FFF4E9;
+    font-family: 'Inria Serif';
+}
+.central{
+    display: flex;
+    justify-content: center;
+}
 .Quadrado{
     background-color: #761414;
     color: white;
@@ -87,7 +98,6 @@ form{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 form label {
-    font-size: 0.9rem;
     font-weight: bold;
     margin-bottom: 5px;
     text-align: left;
@@ -149,7 +159,8 @@ button:hover{
     }
 }
 footer {
-    background-color: #333;
+    background-image: url(ImagensIndex2/image\ 28.png );
+    background-color: #3333339f;
     color: #fff;
     padding: 2rem 1rem;
     text-align: center;

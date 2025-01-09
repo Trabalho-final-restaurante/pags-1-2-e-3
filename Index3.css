@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body{    
+    margin: 0px;
+    padding: 0px;
+    background-color: #FFF4E9;
+    font-family: 'Inria Serif';
+}
+
+.Redes{
+    margin: 30px 0px;
+}
 .central{
     display: flex;
     justify-content: center;
@@ -36,6 +48,7 @@
 }
 .TextoP{
     display: flex;
+    width: 50%;
     justify-content: center;
     align-items: center;
     margin: 0px 0px 0px 20px;
@@ -79,7 +92,7 @@ h4{
 .IconesR{
     width: 100%;
 }
-a{
+.if{
     width: 64px;
     height: 64px;
     margin: 0px 20px;
@@ -87,7 +100,9 @@ a{
 button{
     width: 6%;
     height: 30px;
-    margin: 30px 631.562px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
     background-color: #761414;
     color: white;
     border: 2px solid #e4b363;
@@ -146,4 +161,33 @@ button{
         margin: 30px 155.250px;
         width: 25%;
     }
+}
+footer {
+    background-image: url(ImagensIndex2/image\ 28.png );
+    background-color: #3333339f;
+    color: #fff;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+.footer-content {
+    margin-bottom: 2rem;
+}
+.redes-sociais a {
+    color: #e4b363;
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+    transition: color 0.3s;
+}
+.redes-sociais a:hover {
+    color: #fff;
+}
+.info-footer {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    text-align: left;
+}
+.info-footer div h3 {
+    margin-bottom: 0.5rem;
+    color: #e4b363;
 }

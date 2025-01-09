@@ -1,7 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+.nav-menus {
+    font-family: serif, inrian;
+    font-size: 40px;
+    padding: 1px  ;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 13px;
+    width: 100%;
+    z-index: 1000;
+}
+
+.nav-menus  a {
+    color: white;
+    padding: 14px 55px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.nav-menus  a:hover {
+    background-color: #555;
+}
+
+/*Banner 1 + text*/
+
+.container-menu{
+    background-color: #322218;
+}
+
+.banner {
+    
+    width: 100%;
+    height: 800px;
+    background-size: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.banner-text {
+    display: flex;
+    justify-content: center;
+    font-family: serif, inrian;
+    position: absolute;
+    left: 100px;
+    right: 100px;
+    letter-spacing: 18px;
+    top: 275px;
+}
+
+.lareserve-link{
+    color: white;
+    font-size: 130px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+    text-decoration: none;
+}
+
+/*menu navegação icones */
+
+.nav-menu-icone{
+    justify-content: center;
+    position: absolute;
+    top: 505px;
+    padding: 1px;
+    margin-right:1px;
+    width: 100%;
+    z-index: 1000;
+    text-align: center;
+   
+}
+
+.nav-menu-icone a {
+    padding: 1px 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+/*Estrelas avaliação*/
+
+.text-ava{
+    position: relative;
+    left: 15px;
+    font-size: 25px;
+    color: #322218 ;
+
+
+}
+
+.estrelas-ava {
+    direction: rtl;
+    display: inline-flex;
+    background-color: #c4b5a5;
+    border-radius:5px;
+    position: relative;
+    gap: 25px;
+    padding: 5px 10px 10px 10px;
+    top: 21px;
+    left: 300px; 
+  }
+  .estrelas-ava input {
+    display: none;
+  }
+  .estrelas-ava label {
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: #fceac8;
+    cursor: pointer;
+    transition: color 0.2s ease-in-out;
+    
+  }
+  .estrelas-ava input:checked ~ label,
+  .estrelas-ava label:hover,
+  .estrelas-ava label:hover ~ label {
+    color: #ffca28;
+  }
+  .estrelas-ava input:checked ~ label:hover,
+  .estrelas-ava input:checked ~ label:hover ~ label {
+    color: #ffca28;
+  }
+  
+
+
+
+/*container de horario */
+
+.container-horario{
+
+    
+    background-color: #322218;
+    width: 50%;
+    height: 125px;
+    position: absolute;
+    top: 678px;
+}
+
+.text-esquesta-container{
+
+    font-family: serif, inrian;
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    left: 30px;
+    top: 20px;
+}
+
+.text-direita-container{
+
+    font-family: serif, inrian;
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    left: 550px;
+    top: 20px;
+
+}
+
+.container-avaliacao{
+    background-color: #E8DBCC;
+    width: 48.2%;
+    height: 90px;
+    padding: 17px;
+    left: 50%;
+    position: absolute;
+    top: 680px;
+}
+
+.content {
+    padding: 20px;
+}
+
+.blog-text {
+    line-height: 1.6;
+    color: #333;
+}
 body{
     margin: 0px;
     padding: 0px;
     border: 0px;
+    background-color: #FFF4E9;
+    font-family: 'Inria Serif';
+}
+h3, h1{
+    font-weight: 900;
 }
 .central{
     display: flex;
@@ -11,6 +195,7 @@ body{
     width: 100%;
     display: flex;
     flex-direction: column;
+    margin-top: 30px;
 }
 .ConteudoPratos{
     width: 100%;
@@ -24,13 +209,20 @@ body{
     width: 50%;
     height: 400px;
 }
+p{
+    font-size: 28px;
+    margin: 5px 0px;
+    text-align: center;
+}
 .TituloP{
     font-size: 48px;
     font-weight: 600;
+    margin: 10px;
 }
 .SubTituloP{
     font-size: 32px;
-    font-weight: 400;
+    font-weight: 200;
+    margin: 10px;  
 }
 .QuadradoTituloEventos{
     background-color: #761414;
@@ -110,7 +302,8 @@ body{
     }
 }
 footer {
-    background-color: #333;
+    background-image: url(ImagensIndex2/image\ 28.png );
+    background-color: #3333339f;
     color: #fff;
     padding: 2rem 1rem;
     text-align: center;
